@@ -105,6 +105,15 @@ git fetch --all
 5. you can select whatever you like, if selected 2 option then go with "add remote origin" command
 6. start with pull push activity.
 ---
+## Authentication for Git and GitHub
+> You will need a authentication token for push and other commands from your local git to remote git, here steps to generate token is provided:
+1. Go to settings page of GitHub account.
+2. Click on developer settngs and options to generate tokens will be displayed.
+3. You need to select generate "Personal Access Token" (PAT) "classic".
+5. Give suitable name, select expiry date and tick the repo related options.
+6. Click on generate token and you will displayed with a token and you can copy it only once.
+7. Copy it and store the PAT somewhere safely.
+8. So whenver you are pushing from terminal you will be 
 
 > Thank You!
 ---
